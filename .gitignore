@@ -1,0 +1,69 @@
+# ─── OS & Editor ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ─── Python ───────────────────────────────────────────────────────────
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+reco_env/
+venv/
+.env/
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage & reports
+htmlcov/
+.coverage
+.coverage.*
+pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# ─── ML & Data ────────────────────────────────────────────────────────
+# Raw data (too big for VCS)
+data/raw/
+data/processed/
+
+# Model artifacts & checkpoints
+models/
+mlruns/                # MLflow runs directory
+
+# Hugging Face & PyTorch caches
+.cache/huggingface/
+.cache/torch/
+
+
+# ─── Backend & Deployment ─────────────────────────────────────────────
+# Environment files & secrets
+.env.*
+!.env.example          # keep a template, ignore real creds
+
+# Docker
+docker-compose.override.yml
+
+# Uvicorn / FastAPI temp files
+__pycache__/
+
+# ─── Frontend (React) ─────────────────────────────────────────────────
+# Dependencies & build output
+frontend/node_modules/
+frontend/build/
+
+# Environment (if you have per-app vars)
+frontend/.env*
+npm-debug.log*
+yarn-debug.log*

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/s/projects/sentiment-reco-project/mlruns/460133202806448467/dd03414ce06a41bbb7795b1ac41eae7b/artifacts
+end_time: 1746035569793
+entry_point_name: ''
+experiment_id: '460133202806448467'
+lifecycle_stage: active
+run_id: dd03414ce06a41bbb7795b1ac41eae7b
+run_name: capable-auk-759
+run_uuid: dd03414ce06a41bbb7795b1ac41eae7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746035010470
+status: 4
+tags: []
+user_id: s
